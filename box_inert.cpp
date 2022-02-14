@@ -21,7 +21,8 @@ int main(){
     inertial_terso m_inert;
     int object_type;
     cout<<"what is the shape of the object? \n";
-    cout<<"sphere is 1, block/cuboid is 2, cylinder is 3 \n";
+    cout<<"sphere is 1, block/cuboid is 2, cylinder is 3"; 
+    cout <<"gave the value = ";
     cin>>object_type;
     switch (object_type)
     {
